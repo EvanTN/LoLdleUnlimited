@@ -1,0 +1,138 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  
+}
+
+html{
+  background: url(WallpaperDark.20d3d6f6.webp) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+h1 {
+  color: white;
+}
+
+.att-bar{
+color: white;
+text-decoration: underline;
+text-decoration-color: white;
+}
+
+#character-container {
+  margin-top: 20px;
+}
+
+#character-image {
+  max-width: 300px;
+}
+
+#guess-form {
+  margin-top: 20px;
+}
+
+#guess-input {
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+
+#guess-button {
+  padding: 10px 20px;
+  background-color: #007acc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+  color: orange;
+}
+
+tr{
+  border: 10px solid rgb(121, 25, 25); 
+  }
+ 
+td{
+
+padding-right: 20px;
+padding-left: 20px;
+
+}
+
+table{
+margin-right: auto;
+margin-left: auto;
+border-spacing: 8px;
+
+}
+
+.cheat{
+  margin-left: 12%;
+}
+
+/*
+.text-box{
+  font-size: 100px;
+  font-family: sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+span{
+  font-weight: bolder;
+  display: inline-block;
+  animation: mover 1.5s linear infinite;
+  color: white;
+}
+
+@keyframes mover{
+  0%{
+    text-shadow: 0 0 30px rgba(0,0,0,0);
+  }
+  50%{
+    text-shadow: 0 0 30px rgba(0,0,0,0.3);
+    transform: translateY(30px);
+  }
+  100%{
+    text-shadow: 0 0 30px rgba(0,0,0,0);
+  }
+}
+span:nth-child(1){
+  animation-delay: 0.3s;
+}
+span:nth-child(2){
+  animation-delay: 0.6s;
+}
+span:nth-child(3){
+  animation-delay: 0.9s;
+}
+span:nth-child(4){
+  animation-delay: 1.2s;
+}
+span:nth-child(5){
+  animation-delay: 1.5s;
+}
+*/
+/*
+
+td:empty {
+border: none;
+}
+
+*/
+
+
+
+
+
