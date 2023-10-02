@@ -183,7 +183,7 @@ const characters = [
       //document.getElementById("testing").innerHTML = currentCharacter.name;
       let str = (currentCharacter.name);
       str = str.replace(/\s+/g, '');
-      document.getElementById("character-image").src = `Images/Characters/${str}.png`; 
+      document.getElementById("character-image").src = `${str}.png`; 
       document.getElementById("result").textContent = "";
       document.getElementById("guess-input").value = "";
   }
@@ -222,7 +222,7 @@ const characters = [
   
     let str2 = (characters[guessSpot].name);
     str2 = str2.replace(/\s+/g, '');
-    document.getElementById("image-cell" + count).src = `Images/Characters/${str2}.png`; 
+    document.getElementById("image-cell" + count).src = `${str2}.png`; 
   
     /*
     for(var i = 0; i<atts.length; i++){
